@@ -192,9 +192,13 @@ Three tools the assistant calls against live Supabase data:
 
 ## Phase Plan
 
-### Phase 1 — Bones (build first)
-- [ ] GitHub repo: `jkh2/farmfoodfinder`
-- [ ] Next.js 14 project init + Tailwind + Vercel deploy wired
+### Phase 1 — Bones (in progress — April 13, 2026)
+- [x] GitHub repo: `jkh2/farmfoodfinder` — created and live
+- [x] Next.js 14 project init + TypeScript + Tailwind — scaffolded and pushed
+- [x] Dependencies installed: leaflet, @types/leaflet, @supabase/supabase-js, @anthropic-ai/sdk
+- [x] README.md, CLAUDE.md, .env.local.example written
+- [x] Build plan saved to docs/BuildPlan.md in repo
+- [ ] Vercel deploy wired (James: import repo at vercel.com)
 - [ ] Supabase project created + PostGIS enabled
 - [ ] All 5 tables created with schema above
 - [ ] Leaflet map rendering (OpenStreetMap tiles)
