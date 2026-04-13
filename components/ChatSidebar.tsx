@@ -47,7 +47,7 @@ export default function ChatSidebar({ userLat, userLng, radiusMiles, isOpen, onC
   const transport = useMemo(() => new DefaultChatTransport({
     api: '/api/chat',
     prepareSendMessagesRequest: (opts) => ({
-      body: { ...opts.body, ...bodyRef.current },
+      body: { messages: opts.messages, id: opts.id, ...bodyRef.current },
     }),
   }), [])
 

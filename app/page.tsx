@@ -158,7 +158,7 @@ export default function Home() {
       </div>
 
       {/* Map */}
-      <main className="flex-1 relative overflow-hidden">
+      <main className="flex-1 relative overflow-hidden" style={{ height: 0 }}>
         {userLat && userLng && (
           <Map
             farms={farms}

@@ -130,8 +130,8 @@ export default function Map({
   return (
     <div
       ref={mapRef}
-      className="w-full h-full rounded-lg"
-      style={{ minHeight: '400px' }}
+      className="w-full rounded-lg"
+      style={{ height: '100%', minHeight: '400px' }}
     />
   )
 }
